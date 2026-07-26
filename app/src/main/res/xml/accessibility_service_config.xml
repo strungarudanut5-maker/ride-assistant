@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Accessibility Service Configuration -->
+    <integer-array name="eventTypes">
+        <item>16</item>
+        <item>256</item>
+        <item>4096</item>
+        <item>8</item>
+        <item>32</item>
+    </integer-array>
+</PreferenceScreen>

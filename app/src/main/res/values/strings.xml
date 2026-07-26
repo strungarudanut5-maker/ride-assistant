@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ride Assistant</string>
+    <string name="app_description">Analizator de rentabilitate pentru cursele Bolt și Uber</string>
+    
+    <!-- Main Screen -->
+    <string name="home">Acasă</string>
+    <string name="history">Istoric</string>
+    <string name="statistics">Statistici</string>
+    <string name="maps">Hărți</string>
+    <string name="settings">Setări</string>
+    
+    <!-- Ride Information -->
+    <string name="price">Preț</string>
+    <string name="distance">Distanță</string>
+    <string name="estimated_time">Timp estimat</string>
+    <string name="profit">Profit</string>
+    <string name="score">Scor</string>
+    <string name="pickup_location">Loc ridicare</string>
+    <string name="dropoff_location">Destinație</string>
+    
+    <!-- Settings -->
+    <string name="fuel_consumption">Consum combustibil</string>
+    <string name="fuel_price">Preț combustibil</string>
+    <string name="bolt_commission">Comision Bolt</string>
+    <string name="uber_commission">Comision Uber</string>
+    <string name="minimum_profit">Profit minim</string>
+    <string name="minimum_ronper_km">RON/km minim</string>
+    <string name="overlay_size">Dimensiune overlay</string>
+    <string name="overlay_position">Poziție overlay</string>
+    <string name="auto_start">Pornire automată</string>
+    <string name="dark_mode">Mod dark</string>
+    
+    <!-- Buttons -->
+    <string name="save">Salvare</string>
+    <string name="cancel">Anulare</string>
+    <string name="start">Pornire</string>
+    <string name="stop">Oprire</string>
+    <string name="clear_history">Șterge istoric</string>
+    
+    <!-- Messages -->
+    <string name="service_running">Serviciul rulează</string>
+    <string name="service_stopped">Serviciul este oprit</string>
+    <string name="enable_accessibility">Activează serviciul de accesibilitate</string>
+    <string name="enable_overlay_permission">Permite afișarea peste alte aplicații</string>
+    <string name="no_rides">Nu sunt curse disponibile</string>
+</resources>
