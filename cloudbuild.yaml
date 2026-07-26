@@ -1,0 +1,24 @@
+<!-- Alacarte Google Cloud Build file -->
+version: '3.1'
+
+# Build configuration pentru CI/CD
+steps:
+  # Step 1: Build with Gradle
+  - name: 'gcr.io/cloud-builders/gradle'
+    args:
+      - 'build'
+      - '--stacktrace'
+
+  # Step 2: Run tests
+  - name: 'gcr.io/cloud-builders/gradle'
+    args:
+      - 'test'
+
+  # Step 3: Build APK
+  - name: 'gcr.io/cloud-builders/gradle'
+    args:
+      - 'assembleDebug'
+
+images:
+  - 'gcr.io/$PROJECT_ID/ride-assistant:$SHORT_SHA'
+  - 'gcr.io/$PROJECT_ID/ride-assistant:latest'
